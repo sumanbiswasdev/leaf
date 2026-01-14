@@ -1,0 +1,25 @@
+{
+  "name": "leaf",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "npx @tailwindcss/cli -i ./src/input.css -o ./src/style.css --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "@tailwindcss/cli": "^4.1.18",
+    "tailwindcss": "^4.1.18"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sumanbrival/Leaf.git"
+  },
+  "bugs": {
+    "url": "https://github.com/sumanbrival/Leaf/issues"
+  },
+  "homepage": "https://github.com/sumanbrival/Leaf#readme"
+}

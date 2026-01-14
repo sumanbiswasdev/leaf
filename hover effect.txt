@@ -1,0 +1,6 @@
+transition duration-300 ease-in-out hover:-translate-y-1
+
+transition duration-700 ease-in-out hover:scale-105
+
+
+flex flex-col lg:flex lg:flex-row lg:justify-between lg:items-center

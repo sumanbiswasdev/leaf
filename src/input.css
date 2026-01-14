@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-leaf: "Exo 2", sans-serif; 
+  --font-optical-sizing: auto;
+  --font-weight: <100,200,300,400,500,600,700,800,900>;
+  --font-style: normal;
+
+  --color-leaf1: #1C4D8D;
+  --color-leaf2: #0F2854;
+  --color-leaf3: #BDE8F5;
+  --color-leaf4: #101828; 
+  --color-leaf5: #D9E7FA; 
+}
+
