@@ -15,48 +15,51 @@
     />
   </head>
   <body class="font-leaf">
+
     <nav class="bg-leaf1 shadow-md lg:sticky lg:top-0 lg:z-50">
+
       <div class="container mx-auto">
         <div class="p-4 lg:p-0 flex justify-between items-center">
+          
           <!-- logo -->
-          <a
-            href="#"
-            class="flex gap-2 transition duration-700 ease-in-out hover:scale-110"
-          >
-            <img class="w-10 drop-shadow-xl" src="/logo/logo.png" alt="logo" />
-            <h1
-              class="text-3xl text-shadow-lg/15 shadow-black text-white font-bold cursor-pointer text-shadow-xl"
-            >
-              Leaf
-            </h1>
+          <a href="#" class="flex gap-2 transition duration-700 ease-in-out hover:scale-110">
+            <img class="w-10 drop-shadow-xl" src="/logo/logo.png" alt="logo"/>
+            <h1 class="text-3xl text-shadow-lg/15 shadow-black text-white font-bold cursor-pointer text-shadow-xl">Leaf</h1>
           </a>
 
-          <!-- hamburger menu / close button -->
+          <!-- Right side icons (only on mobile & tablet) -->
 
-          <button
-            id="menuBtn"
-            class="cursor-pointer lg:hidden text-white text-3xl"
-          >
-            <i class="fa-solid fa-bars"></i>
-          </button>
+          <div class="flex items-center gap-5 lg:hidden">
+
+            <!-- cart icon -->
+              <i class="fa-solid fa-cart-shopping text-2xl text-white cursor-pointer"></i>
+
+            <!-- Hamburger Button -->
+             <button id="menu-btn" class="text-2xl text-white cursor-pointer bg-leaf2 p-2 rounded-lg">
+                <i class="fa-solid fa-bars-staggered"></i> <!-- default icon -->
+             </button>
+             
+             
+
+          </div>
 
           <!-- menu-items -->
           <ul
             id="menu"
-            class="hidden backdrop-blur-sm bg-white/20 lg:bg-leaf1 lg:space-y-0 flex-col absolute w-full p-5 left-0 top-16 gap-6 shadow-md lg:flex lg:flex-row lg:mx-auto lg:w-auto lg:static lg:shadow-none"
+            class="hidden backdrop-blur-sm bg-black/30 lg:bg-leaf1 lg:space-y-0 flex-col absolute w-full p-5 left-0 top-20 gap-6 shadow-md lg:flex lg:flex-row lg:mx-auto lg:w-auto lg:static lg:shadow-none"
           >
             <li
-              class="cursor-pointer hover:border-bottom hover:border-b-[0.1rem] hover:bg-leaf1 lg:hover:bg-leaf1 lg:hover:border-white p-2 lg:bg-none lg:p-0"
+              class="cursor-pointer hover:border-bottom hover:border-b-[0.1rem] hover:bg-leaf2/65 lg:hover:bg-leaf1 hover:border-white p-2 lg:bg-none lg:p-0"
             >
               <a
                 href="#"
                 class="hover:duration-150 hover:transition-all hover:ease-in-out text-white hover:text-leaf3 lg:text-white text-xl lg:text-lg lg:hover:text-leaf3 cursor-pointer font-light"
-                >Inico</a
+                >Início</a
               >
             </li>
 
             <li
-              class="cursor-pointer hover:border-bottom hover:border-b-[0.1rem] hover:bg-leaf1 lg:hover:bg-leaf1 lg:hover:border-white p-2 lg:bg-none lg:p-0"
+              class="cursor-pointer hover:border-bottom hover:border-b-[0.1rem] hover:bg-leaf2/65 lg:hover:bg-leaf1 hover:border-white p-2 lg:bg-none lg:p-0"
             >
               <a
                 href="#"
@@ -66,7 +69,7 @@
             </li>
 
             <li
-              class="cursor-pointer hover:border-bottom hover:border-b-[0.1rem] hover:bg-leaf1 lg:hover:bg-leaf1 lg:hover:border-white p-2 lg:bg-none lg:p-0"
+              class="cursor-pointer hover:border-bottom hover:border-b-[0.1rem] hover:bg-leaf2/65 lg:hover:bg-leaf1 hover:border-white p-2 lg:bg-none lg:p-0"
             >
               <a
                 href="#"
@@ -76,7 +79,7 @@
             </li>
 
             <li
-              class="cursor-pointer hover:border-bottom hover:border-b-[0.1rem] hover:bg-leaf1 lg:hover:bg-leaf1 lg:hover:border-white p-2 lg:bg-none lg:p-0"
+              class="cursor-pointer hover:border-bottom hover:border-b-[0.1rem] hover:bg-leaf2/65 lg:hover:bg-leaf1 hover:border-white p-2 lg:bg-none lg:p-0"
             >
               <a
                 href="#"
@@ -93,16 +96,10 @@
 
     <main>
       <section
-        class="py-44 md:py-64 lg:py-64"
-        style="
-          background-image: url(/bg/bg_2.jpg);
-          background-position: center;
-          background-size: cover;
-          background-repeat: no-repeat;
-          background-attachment: fixed;
-        "
-      >
-        <div class="mx-auto w-[300px] md:w-[500px] lg:w-[780px]">
+        class="py-44 md:py-64 lg:py-64" style="background-image: url(/bg/bg_2.jpg); background-position: center;
+          background-size: cover; background-repeat: no-repeat; background-attachment: fixed;">
+
+        <div class="mx-auto w-[300px] md:w-[500px] lg:w-[780px] mt-20 md:mt-5 lg:mt-0">
           <h1
             class="text-white text-center text-4xl md:text-6xl lg:text-7xl font-leaf font-bold"
           >
@@ -843,7 +840,7 @@
 
                   <a href="#" class="hover:duration-150 hover:transition-all 
                  hover:ease-in-out text-white hover:text-leaf3 lg:text-white text-sm lg:hover:text-leaf3 
-                 cursor-pointer font-light ">Inico</a>
+                 cursor-pointer font-light ">Início</a>
 
 
 
@@ -893,7 +890,7 @@
 
                   <a href="#" class="hover:duration-150 hover:transition-all 
                  hover:ease-in-out text-white hover:text-leaf3 lg:text-white text-sm lg:hover:text-leaf3 
-                 cursor-pointer font-light">Devoluções</a>
+                 cursor-pointer font-light">Perguntas frequentes</a>
 
 
                 
