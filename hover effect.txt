@@ -1,6 +1,9 @@
-transition duration-300 ease-in-out hover:-translate-y-1
+transition duration-300 ease-in-out hover:-translate-y-1 (up)
 
-transition duration-700 ease-in-out hover:scale-105
+transition duration-700 ease-in-out hover:scale-105 (zoom)
 
 
-flex flex-col lg:flex lg:flex-row lg:justify-between lg:items-center
+Inico
+Sobre Leaf
+Leafs
+Contato
